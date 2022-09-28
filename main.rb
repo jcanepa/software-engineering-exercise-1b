@@ -4,7 +4,7 @@ class Bike
 
   class RedBicycle < Bike
 
-    WEIGHT_DECREMENT = 10
+    WEIGHT_OFFSET_POUNDS = 10
 
     def initialize(height, weight, color)
       @height = height
@@ -20,7 +20,7 @@ class Bike
       @height
     end
 
-    def set_reduced_weight
-      @weight -= WEIGHT_DECREMENT
+    def update_weight_decrement_offset
+      @weight -= WEIGHT_OFFSET_POUNDS
     end
   end
