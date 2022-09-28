@@ -20,7 +20,7 @@ class Bike
       @height
     end
 
-    def change_weight
+    def set_reduced_weight
       @weight -= DECREMENT_POUNDS
     end
   end
