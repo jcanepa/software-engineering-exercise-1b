@@ -12,11 +12,11 @@ class Bike
       @color = color
     end
 
-    def getColor
+    def get_color
       @color
     end
 
-    def retreive_height
+    def get_height
       @height
     end
 
