@@ -4,7 +4,7 @@ class Bike
 
   class RedBicycle < Bike
 
-    AMOUNT = 10
+    INCREMENT_POUNDS = 10
 
     def initialize(height, weight, color)
       @height = height
@@ -21,6 +21,6 @@ class Bike
     end
 
     def change_weight
-      @weight -= AMOUNT
+      @weight -= INCREMENT_POUNDS
     end
   end
