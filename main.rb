@@ -2,7 +2,7 @@ class Bike
     # ...
   end
 
-  class RedBicycle < Bike
+  class RedBike < Bike
 
     WEIGHT_OFFSET_POUNDS = 10
 
@@ -20,7 +20,7 @@ class Bike
       @height
     end
 
-    def update_weight_decrement_offset
+    def update_weight_decrement_by_offset
       @weight -= WEIGHT_OFFSET_POUNDS
     end
   end
